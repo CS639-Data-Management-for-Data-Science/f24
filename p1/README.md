@@ -1,5 +1,4 @@
-# DRAFT: DO NOT GET STARTED
-# P1 (6% of grade): Counting Loans with Dockerized Shell Script
+# P1 (6% of grade): Counting Pop Songs in Spotify Dataset with Dockerized Shell Script
 
 ## Overview
 
@@ -22,10 +21,9 @@ Before starting, please review the [general project directions](../projects.md).
 
 We'll use Google's Cloud (GCP) for our virtual machines.  They've
 generously given each 639 student $100 in credits, which should last
-the whole semester if you stick to the [budget
-plan](../projects.md#compute-setup).
+the whole semester if you remember to __suspend__ (don't delete it!) your VM when not using it.
 
-You can obtain the credits here: https://canvas.wisc.edu/courses/397852/pages/google-credits.
+You can obtain the credits here: https://canvas.wisc.edu/courses/425476/pages/google-credits.
 
 Setup a virtual machine that you'll use for the first few projects
 (we'll eventually delete it and create a more powerful one for some of
@@ -84,12 +82,10 @@ docker compose version > compose.txt
 
 ## Part 3: Shell Script
 
-This zip file contains a CSV file with data about loan applications in
-WI: https://pages.cs.wisc.edu/~harter/cs544/data/hdma-wi-2021.zip.
+This zip file contains a CSV file with data on all songs that were on the Top 200 Global Weekly charts of Spotify in 2020 and 2021: https://ms.sites.cs.wisc.edu/cs639/data/spotify.zip.
 
 Try running some shell commands to download the zip, extract the
-contents, and print how many lines contain the text "Multifamily"
-(case sensitive) -- it's OK if you print other additional output too.
+contents, and __print how many songs contain the genre "pop"__. Make sure you're only counting the word "pop" (direct match) and not "k-pop", "uk pop", etc. It's OK for a song to have multiple genres, as long as "pop" is included.
 
 Now, combine these commands in a `count.sh` file; the script should
 have a shebang line so that the following runs with bash:
@@ -100,13 +96,13 @@ have a shebang line so that the following runs with bash:
 
 Make sure your .sh file is executable!
 
-## Part 4: Docker Image
+We will now create a docker image so you can copy over and execute this script inside your container.
 
-Create a `Dockerfile` that starts from a base image of your choosing
-and includes your `count.sh` file.  The Dockerfile should do any
-installs needed for your script to run.
+## Part 4: Docker Image with MySQL installation
 
-You should be able to create an image and container like this:
+Create a `Dockerfile` that starts from base image `Ubuntu:24.04`, installs `MySQL`, and copies over and executes `count.sh`. __The Dockerfile should also do any installs needed to run `count.sh`__.
+
+Once you've created the `Dockerfile`, you should be able to create an image and container like this:
 
 ```
 docker build . -t p1
@@ -120,9 +116,6 @@ It's OK if there's extra output besides the actual count.
 At a minimum, your submission repo (watch for an announcement on how
 to set this up) should contain the following: `os.txt`, `cpu.txt`,
 `docker.txt`, `compose.txt`, `count.sh`, `Dockerfile`.
-
-If you worked with a partner, there should only be one submission
-repo, with at least one commit by each partner.
 
 ## Tester
 
