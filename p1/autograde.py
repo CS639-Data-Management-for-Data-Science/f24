@@ -67,9 +67,9 @@ def build_test():
 @test(points = 15, timeout = 300)
 def run_test():
     out = check_output(["docker", "run", "--name", "p1_tester", "p1"])
-    if "18" in str(out, "utf-8"):
+    if "485" in str(out, "utf-8"):
         return None
-    return "did not find 18 in output of Docker container"
+    return "did not find 485 in output of Docker container"
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
