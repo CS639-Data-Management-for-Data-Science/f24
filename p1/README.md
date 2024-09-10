@@ -120,7 +120,7 @@ At a minimum, your submission repo (see below section) should contain the follow
 
 * Invitation to join [github classroom](https://classroom.github.com/a/uVWrRr1y).
 * Search for name and join the classroom by clicking on it
-* If you cannot find your name, please contact Sachi Sanghavi: sachi@cs.wisc.edu
+* If you cannot find your name, please contact Sachi Sanghavi: sachi at cs dot wisc dot edu
 * **Just for project 1, we want everyone to make individual submissions**
 * Create a team name:
   * I recommend using this format: p<id>_<github_username>. For example, my team name would be *p1_msyamkumar*. 
