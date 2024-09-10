@@ -113,9 +113,20 @@ It's OK if there's extra output besides the actual count.
 
 ## Submission
 
-At a minimum, your submission repo (watch for an announcement on how
-to set this up) should contain the following: `os.txt`, `cpu.txt`,
+At a minimum, your submission repo (see below section) should contain the following: `os.txt`, `cpu.txt`,
 `docker.txt`, `compose.txt`, `count.sh`, `Dockerfile`.
+
+### Github classroom
+
+* Invitation to join [github classroom](https://classroom.github.com/a/uVWrRr1y).
+* Search for name and join the classroom by clicking on it
+* If you cannot find your name, please contact Sachi Sanghavi: sachi@cs.wisc.edu
+* *Just for project 1, we want everyone to make individual submissions*
+* Create a team name
+ * I recommend using this format: p<id>_<github_username>. For example, my team name would be *p1_msyamkumar*. 
+ * team names are publicly visible, so please use appropriate team names
+* refresh until the repo is ready
+* visit the repo, and clone it to your VM - happy coding!
 
 ## Tester
 
