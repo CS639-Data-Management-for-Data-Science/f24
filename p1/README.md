@@ -122,11 +122,11 @@ At a minimum, your submission repo (see below section) should contain the follow
 * Search for name and join the classroom by clicking on it
 * If you cannot find your name, please contact Sachi Sanghavi: sachi@cs.wisc.edu
 * **Just for project 1, we want everyone to make individual submissions**
-* Create a team name
- * I recommend using this format: p<id>_<github_username>. For example, my team name would be *p1_msyamkumar*. 
- * team names are publicly visible, so please use appropriate team names
-* refresh until the repo is ready
-* visit the repo, and clone it to your VM - happy coding!
+* Create a team name:
+  * I recommend using this format: p<id>_<github_username>. For example, my team name would be *p1_msyamkumar*. 
+  * Team names are publicly visible, so please use appropriate team names
+* Refresh until the repo is ready
+* Visit the repo, and clone it to your VM - happy coding!
 
 ## Tester
 
