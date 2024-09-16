@@ -15,6 +15,10 @@ sudo pip3 install jupyter
 pip3 install SQLAlchemy mysql-connector-python pandas
 pip3 install pandas
 
+#### Docker clean up
+
+docker system prune
+docker rm `docker ps -aq`
 docker rmi -f `docker images -aq` (force removes stale images)
 
 docker pull mysql
