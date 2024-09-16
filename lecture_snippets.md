@@ -4,8 +4,7 @@ I will use this file to mention installation requirements for lecture demos and 
 
 ## Mon, Sept 16 (MySQL):
 
-On VM:
-------
+#### Installations on your VM:
 
 Stop your VM, refresh your window after a few minutes, and “Start / Resume” to update kernel version
 
@@ -27,8 +26,7 @@ git pull (inside your f24 directory)
 Note: navigate to today's lecture directory within your f24 directory
 jupyter notebook
 
-Establish ssh tunnel:
---------------------
+#### Establish ssh tunnel (from your laptop to your VM):
 
 ssh USER@<IP> -L localhost:8888:localhost:8888
 
