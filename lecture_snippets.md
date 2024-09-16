@@ -1,4 +1,8 @@
-Mon, Sept 16 (MySQL):
+# Lecture code snippets
+
+I will use this file to mention installation requirements for lecture demos and also any code snippets that I will be copy/pasting during the lecture demo.
+
+## Mon, Sept 16 (MySQL):
 
 On VM:
 ------
