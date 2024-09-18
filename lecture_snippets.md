@@ -29,9 +29,13 @@ docker rmi -f `docker images -aq` (force removes stale images)
 docker pull mysql
 docker run -d -m "1g" -p 127.0.0.1:3306:3306 -e MYSQL_DATABASE=cs639 -e MYSQL_ROOT_PASSWORD=abc mysql
 ```
-docker exec -it <CONTAINER NAME> bash
+docker exec -it \<CONTAINER NAME\> bash
 
 ```
+mysql -p cs639
+help
+show tables;
+
 git pull (inside your f24 directory)
 # Note: navigate to today's lecture directory within your f24 directory
 jupyter notebook
