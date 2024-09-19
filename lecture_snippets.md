@@ -29,7 +29,9 @@ docker rmi -f `docker images -aq` (force removes stale images)
 docker pull mysql
 docker run -d -m "1g" -p 127.0.0.1:3306:3306 -e MYSQL_DATABASE=cs639 -e MYSQL_ROOT_PASSWORD=abc mysql
 ```
+```
 docker exec -it \<CONTAINER NAME\> bash
+```
 
 ```
 mysql -p cs639
@@ -42,6 +44,6 @@ jupyter notebook
 ```
 
 #### Establish ssh tunnel (from your laptop to your VM):
-
+```
 ssh USER@<IP> -L localhost:8888:localhost:8888
-
+```
