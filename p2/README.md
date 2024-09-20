@@ -332,6 +332,19 @@ Window functions allow you to perform calculations across a set of rows related 
 * Your results must include the month `Month`, corresponding month's total sales `MonthlySales`, and corresponding month's moving average sales `MovingAverageSales`.
 * Your results should be ordered by ascending order of the months.
 
+
+## Running the Autograder:
+Download `autograder.py` and `answers.zip`, ideally in the same dir as your solution notebook. 
+
+Then run:
+> python3 autograder.py
+
+If your notebook is not named p2.ipynb, you can run:
+> python3 autograder.py -nb `<YOUR-NOTEBOOK-NAME>`
+
+
 ## Submission
 
-This section will be updated by Monday, Sept 23rd. Autograder will be made available by this weekend.
+This section will be updated by Monday, Sept 23rd.
+
+
