@@ -2,6 +2,39 @@
 
 I will use this file to mention installation requirements for lecture demos and also any code snippets that I will be copy/pasting during the lecture demo.
 
+## Fri, Sept 20 (MySQL 2):
+
+#### Retrieve the names of all songs along with their artists.
+
+#### Find the songs that have more than 1 million streams.
+1000000
+
+#### What are the top 10 songs by the highest charting position?
+
+#### Find the number of songs by each artist.
+
+#### Find the genres that have more than 100 songs.
+
+#### What are the top 10 popular songs that have a popularity score above 80?
+
+#### What is the average streams for songs in each genre
+
+#### Which artist has the most followers?
+
+#### Which songs got released after 2020?
+
+#### Which are the top 5 longest songs?
+
+#### Which song has the highest danceability?
+
+#### What is the average loudness of all songs?
+
+#### Which are the top 5 genres with the highest average energy?
+
+#### Find songs with a valence (happiness) score above 0.8.
+
+--------------------------------
+
 ## Mon, Sept 16 (MySQL):
 
 #### Installations on your VM:
