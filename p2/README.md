@@ -21,6 +21,8 @@ You will be answering 35 questions. **We recommend getting started with the proj
 
 ## Setting up MySQL using Docker
 
+**WARNING:** **DO NOT** forget to stop and remove the `docker` container which we are using during lecture for "IMDB dataset" analysis. Running both containers simultaneously will make your VM terribly slow. 
+
 For this project, we'll be using the `mysql` image from [dockerhub](https://hub.docker.com/search?q=mysql). You can `pull` the `mysql` image using the below command:
 
 ```bash
