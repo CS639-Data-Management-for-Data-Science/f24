@@ -56,7 +56,7 @@ sudo apt-get install python3-pip wget unzip
 ```
 ```bash
 sudo pip3 install jupyter
-pip3 install SQLAlchemy mysql-connector-python pandas
+pip3 install SQLAlchemy mysql-connector-python pandas nbformat nbconvert
 ```
 
 Then, launch `jupyter` using the below command
@@ -99,7 +99,7 @@ You are a data analyst in the Chinook company who has just been asked to conduct
 
 We would recommend you to explore all the tables by using appropriate SQL queries to display the corresponding table rows. Also, to make your notebook readable, we recommend copy/pasting the questions into mark down cells above your solution cell. You can use `####` mark down syntax to highlight each question.
 
-**Requirement**: Each solution cell should be marked using the appropriate question number as comment. For example, at the beginning of the cell answering question 1, you should have this comment: "#q1".
+**Requirement**: Each solution cell should be marked using the appropriate question number as a comment. For example, at the beginning of the cell answering question 1, you should have this comment: "#q1".
 
 #### Q1: Retrieve all information about the artist "Queen" from the Artist table.
 
