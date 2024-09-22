@@ -57,7 +57,7 @@ def grade_notebook(notebook_path):
               except FileNotFoundError:
                 out.write(f"[!] Missing/Incorrect pickle file name for question {question_number}\n")
                 
-              with open(f"answers/pkls/p{question_number}.pkl", 'rb') as eo:
+              with open(f"answers/pkls/p{str(question_number)}.pkl", 'rb') as eo:
                 expected_output = pickle.load(eo)
               if actual_output.equals(expected_output):
                 out.write(f"Question {question_number}: 2.5/2.5 points\n")
