@@ -1,8 +1,10 @@
 # P2 (6% of grade): SQL Analysis of the Chinook Music Store Dataset
 
+**Github Classroom Invitation Link: [https://classroom.github.com/a/1lhNtVba](https://classroom.github.com/a/1lhNtVba)**
+
 ## Clarifications / fixes
 
-* None yet
+- 18:48 22 Sep 2024: Update Github classroom link
 
 ## Overview
 
