@@ -62,11 +62,13 @@ def grade_notebook(notebook_path):
               if actual_output.equals(expected_output):
                 out.write(f"Question {question_number}: 2.5/2.5 points\n")
                 total_score += 2.5
+              else:
+                out.write(f"Question {question_number}: 0 points (Did Not Match Answer pkl)\n")
               # if actual_output == expected_output:
               #   out.write(f"Question {question_number}: 2.5 points\n")
               #   total_score += 2.5
             else:
-              out.write(f"Question {question_number}: 0 points\n")
+              out.write(f"Question {question_number}: 0 points (NB did not have an output)\n")
             print("Processed", question_tag)
       out.write(f"---------------------------------------------------------------\n Total Score: {total_score}/{2.5 * (35 + 1)}\n---------------------------------------------------------------\n")
       print("-----------------------------")
