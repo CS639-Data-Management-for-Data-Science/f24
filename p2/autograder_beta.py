@@ -90,7 +90,7 @@ def grade_notebook(notebook_path):
               except FileNotFoundError:
                 out.write(f"[!] Missing/Incorrect pickle file name for question {question_number}\n")
                 
-              with open(f"answers_beta/pkls/p{str(question_number)}.pkl", 'rb') as eo:
+              with open(f"answers/pkls/p{str(question_number)}.pkl", 'rb') as eo:
                 expected_output = pickle.load(eo)
               
               total_score += assert_frame_equal_extended_diff(actual_output, 
@@ -111,5 +111,5 @@ if __name__ == "__main__":
     args.add_argument("-nb", "--notebook_path", type=str, default="p2.ipynb")
     args = args.parse_args()
 
-    unzip_and_store("answers.zip", "answers_beta")
+    unzip_and_store("answers.zip", "answers")
     score = grade_notebook(args.notebook_path)
