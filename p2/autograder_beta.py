@@ -35,9 +35,10 @@ def assert_frame_equal_extended_diff(df1, df2, out, question_tag, question_numbe
         pd.testing.assert_index_equal(df1.index, df2.index)
         pd.testing.assert_index_equal(df1.columns, df2.columns)
     except AssertionError:
-        out.write(f"Shape or index/column error for {question_tag}:\n")
+        out.write(f"\nShape or index/column error for {question_tag}:\n")
         out.write(e)
-
+        out.write("\n")
+      
     # if not, we have a value error 
     diff = df1 != df2
     diffcols = diff.any(axis=0)
@@ -46,7 +47,7 @@ def assert_frame_equal_extended_diff(df1, df2, out, question_tag, question_numbe
             {'left': df1.loc[diffrows, diffcols], 'right': df2.loc[diffrows, diffcols]},
             names=['dataframe'],
             axis=1)
-    out.write(f'Value error for {question_tag}:\n\nDifferences:\n{cmp}')
+    out.write(f'\nValue error for {question_tag}:\n\nDifferences:\n{cmp}\n')
     return 0
     
 
@@ -89,7 +90,7 @@ def grade_notebook(notebook_path):
               except FileNotFoundError:
                 out.write(f"[!] Missing/Incorrect pickle file name for question {question_number}\n")
                 
-              with open(f"answers/pkls/p{str(question_number)}.pkl", 'rb') as eo:
+              with open(f"answers_beta/pkls/p{str(question_number)}.pkl", 'rb') as eo:
                 expected_output = pickle.load(eo)
               
               total_score += assert_frame_equal_extended_diff(actual_output, 
@@ -110,5 +111,5 @@ if __name__ == "__main__":
     args.add_argument("-nb", "--notebook_path", type=str, default="p2.ipynb")
     args = args.parse_args()
 
-    unzip_and_store("answers.zip", "answers")
+    unzip_and_store("answers_beta.zip", "answers_beta")
     score = grade_notebook(args.notebook_path)
