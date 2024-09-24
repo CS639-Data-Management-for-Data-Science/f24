@@ -111,5 +111,5 @@ if __name__ == "__main__":
     args.add_argument("-nb", "--notebook_path", type=str, default="p2.ipynb")
     args = args.parse_args()
 
-    unzip_and_store("answers_beta.zip", "answers_beta")
+    unzip_and_store("answers.zip", "answers_beta")
     score = grade_notebook(args.notebook_path)
