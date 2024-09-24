@@ -6,6 +6,11 @@
 
 - 18:48 22 Sep 2024: Update Github classroom link
 - 22:11 23 Sep 2024: SQL queries might return generic dataframe objects! Please typecast them appropriately. For ex - Typecast columns with date information to pandas `Datetime` objects to pass the autograder. (You can use `autograder_beta.py` to get a more verbose output to figure out such inconsistencies)
+- 17:45 24 Sep 2024: Update partner policy
+
+## Parter policy for this assignment
+
+We do accept partner work on this project. If you are in a team (max two people) to finish this assignment, only one of the team members should submit their assignment. **The submitted repo should have a README file that write ALL the team members' names right at the top of the file before anything within the file**
 
 ## Overview
 
