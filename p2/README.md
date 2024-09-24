@@ -5,7 +5,7 @@
 ## Clarifications / fixes
 
 - 18:48 22 Sep 2024: Update Github classroom link
-- 22:11 23 Sep 2024: SQL queries might return generic dataframe objects! Please typecast them appropriately. For ex - Typecast columns with date information to pandas `Datetime` objects to pass the autograder. You can use `autograder_beta.py` to get a more verbose output to figure out such inconsistencies.
+- 22:11 23 Sep 2024: SQL queries might return generic dataframe objects! Please typecast them appropriately. For ex - Typecast columns with date information to pandas `Datetime` objects to pass the autograder. (You can use `autograder_beta.py` to get a more verbose output to figure out such inconsistencies)
 
 ## Overview
 
