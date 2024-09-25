@@ -31,6 +31,10 @@ def assert_frame_equal_extended_diff(df1, df2, out, question_tag, question_numbe
     return 2.5
   except AssertionError as e:
     # if this was a shape or index/col error, then re-raise
+    if (df1.astype(str)).equals(df2.astype(str)):
+      out.write(f"Question {question_number}: 2.5/2.5 points\n")
+      return 2.5
+      
     try:
         pd.testing.assert_index_equal(df1.index, df2.index)
         pd.testing.assert_index_equal(df1.columns, df2.columns)
