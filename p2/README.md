@@ -14,6 +14,7 @@
 - 10:40 27 Sep 2024: Updating q25 sorting requirements (autograder will be fixed shortly)
 - 10:43 27 Sep 2024: Updating q27 sorting requirements and fixing existing requirements (autograder will be fixed shortly)
 - 10:45 27 Sep 2024: Updating q28 sorting requirements (autograder will be fixed shortly)
+- 10:49 27 Sep 2024: Updating q30 & q31 sorting requirements (autograder will be fixed shortly)
 
 ## Parter policy for this assignment
 
@@ -298,6 +299,7 @@ In this section, you will employ SQL **grouping** clause and **windowing** funct
 * Your results must include the `CustomerId`, `FirstName`, `LastName`, and corresponding total expenditure `TotalExpenditure`.
 * Total expenditure calculation: `UnitPrice * Quantity`
 * Your results should be ordered by descending order of total expenditure.
+* **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `CustomerId`.
 
 ### Part 2: Windowing queries
 
@@ -308,7 +310,9 @@ Window functions allow you to perform calculations across a set of rows related 
 **Requirements:** 
 * Your results must include the `TrackId`, track name `TrackName`, duration in minutes `DurationMinutes`, and corresponding duration rank `DurationRank`.
 * Ranking should be based on descending order of duration.
-* Your results should be ordered by ascending order of ascending order of duration rank. If two tracks have the same rank, then they should be ordered based on descending order of duration in minutes. 
+* Your results should be ordered by ascending order of ascending order of duration rank.
+* **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `CustomerId`.
+* If two tracks have the same rank, then they should be ordered based on descending order of duration in minutes. 
 
 #### Q32: Rank customers who purchased tracks by "Queen" based on their total expenditure.
 
