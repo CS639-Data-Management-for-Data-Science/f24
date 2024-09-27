@@ -14,7 +14,7 @@
 - 10:40 27 Sep 2024: Updating q25 sorting requirements (autograder will be fixed shortly)
 - 10:43 27 Sep 2024: Updating q27 sorting requirements and fixing existing requirements (autograder will be fixed shortly)
 - 10:45 27 Sep 2024: Updating q28 sorting requirements (autograder will be fixed shortly)
-- 10:49 27 Sep 2024: Updating q30 sorting requirements (autograder will be fixed shortly)
+- 10:49 27 Sep 2024: Updating q30 & q32 sorting requirements (autograder will be fixed shortly)
 - 10:52 27 Sep 2024: Updating q31 sorting requirements (autograder will be fixed shortly)
 
 ## Parter policy for this assignment
@@ -323,6 +323,7 @@ Window functions allow you to perform calculations across a set of rows related 
 * Total expenditure calculation: `UnitPrice * Quantity`
 * Ranking should be based on descending order of total expenditure.
 * Your results should be ordered by descending order of total expenditure.
+* **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `CustomerId`.
 
 ### Q33: Calculate the total number of invoices for each customer and assign a sequential rank to each customer based on their total invoices.
 
