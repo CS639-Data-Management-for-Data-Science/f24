@@ -12,6 +12,7 @@
 - 10:32 27 Sep 2024: Updating q21 sorting requirements (autograder will be fixed shortly)
 - 10:38 27 Sep 2024: Updating q23 & q24 sorting requirements (autograder will be fixed shortly)
 - 10:40 27 Sep 2024: Updating q25 sorting requirements (autograder will be fixed shortly)
+- 10:43 27 Sep 2024: Updating q27 sorting requirements and fixing existing requirements (autograder will be fixed shortly)
 
 ## Parter policy for this assignment
 
@@ -266,14 +267,15 @@ In this section, you will employ SQL **grouping** clause and **windowing** funct
 #### Q26: What is the total duration (in hours) of tracks for top 5 longest albums?
 
 **Requirements:** 
-* Your results must include the `AlbumId`, album title `AlbumTitle`  and total duration in hours `TotalDurationHours` for each album.
+* Your results must include the `AlbumId`, album title `AlbumTitle` and total duration in hours `TotalDurationHours` for each album.
 * Your results should be ordered by descending order of total duration in hours.
 
 #### Q27: Retrieve all albums that contain tracks from more than one genre.
 
 **Requirements:** 
 * Your results must include the album title `AlbumTitle`, and corresponding unique genre count `GenreCount`.
-* Your results should be ordered by descending order of total duration in hours.
+* **UPDATED REQUIREMENT:** Your results should be ordered by descending order of genre count `GenreCount`.
+* **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `AlbumTitle`.
 
 #### Q28: Calculate the total revenue for all artists.
 
