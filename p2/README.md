@@ -10,6 +10,7 @@
 - 20:43 25 Sep 2024: Updating the q31 solution
 - 9:40 27 Sep 2024: Updating q15 sorting requirements (autograder will be fixed shortly)
 - 10:32 27 Sep 2024: Updating q21 sorting requirements (autograder will be fixed shortly)
+- 10:38 27 Sep 2024: Updating q23 & q24 sorting requirements (autograder will be fixed shortly)
 
 ## Parter policy for this assignment
 
@@ -225,7 +226,7 @@ Now that you have the basic information and understanding of the database, you s
 
 **Requirements:** 
 * Your results must include the playlist name `PlaylistName`.
-* **UPDATED REQUIREMENT:** Your results should also be ordered based on `PlaylistName` (A through Z).
+* **UPDATED REQUIREMENT:** Your results should also be ordered based on ascending order of `PlaylistName`.
 
 #### Q22: List all the employees (sales agents) who supported customers that purchased tracks by "Queen." 
 
@@ -239,12 +240,14 @@ Now that you have the basic information and understanding of the database, you s
 **Requirements:** 
 * Your result should include album title `AlbumTitle`, and artist name `ArtistName`.
 * **IMPORTANT NOTE**: You may **NOT** use a regular join to answer this question. Instead, you **MUST** use `LEFT JOIN`.
+* **UPDATED REQUIREMENT:** Your results should be ordered by ascending order of `AlbumTitle` and ascending order of `ArtistName`.
 
 #### Q24: Retrieve a list of all artists and their corresponding albums, including artists who have not released any albums.
 
 **Requirements:** 
 * Your result should include album title `AlbumTitle`, and artist name `ArtistName`.
 * **IMPORTANT NOTE**: You may **NOT** use a regular join to answer this question. Instead, you **MUST** use `RIGHT JOIN`.
+* **UPDATED REQUIREMENT:** Your results should be ordered by ascending order of `AlbumTitle` and ascending order of `ArtistName`.
 
 ## Section 3: Grouping and windowing (11 questions)
 
