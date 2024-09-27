@@ -11,6 +11,7 @@
 - 9:40 27 Sep 2024: Updating q15 sorting requirements (autograder will be fixed shortly)
 - 10:32 27 Sep 2024: Updating q21 sorting requirements (autograder will be fixed shortly)
 - 10:38 27 Sep 2024: Updating q23 & q24 sorting requirements (autograder will be fixed shortly)
+- 10:40 27 Sep 2024: Updating q25 sorting requirements (autograder will be fixed shortly)
 
 ## Parter policy for this assignment
 
@@ -260,6 +261,7 @@ In this section, you will employ SQL **grouping** clause and **windowing** funct
 **Requirements:** 
 * Your results must include the `GenreId`, and track count `TrackCount` for each genre.
 * Your results should be ordered by descending order of track count.
+* **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `GenreId`.
 
 #### Q26: What is the total duration (in hours) of tracks for top 5 longest albums?
 
