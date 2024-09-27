@@ -4,10 +4,11 @@
 
 ## Clarifications / fixes
 
-- 18:48 22 Sep 2024: Update Github classroom link
+- 18:48 22 Sep 2024: Updating Github classroom link
 - 22:11 23 Sep 2024: SQL queries might return generic dataframe objects! Please typecast them appropriately. For ex - Typecast columns with date information to pandas `Datetime` objects to pass the autograder. (You can use `autograder_beta.py` to get a more verbose output to figure out such inconsistencies)
-- 17:45 24 Sep 2024: Update partner policy
-- 20:43 25 Sep 2024: Update the q31 solution
+- 17:45 24 Sep 2024: Updating partner policy
+- 20:43 25 Sep 2024: Updating the q31 solution
+- 9:40 27 Sep 2024: Updating q15 sorting requirements (autograder will be fixed shortly)
 
 ## Parter policy for this assignment
 
@@ -183,6 +184,7 @@ Now that you have the basic information and understanding of the database, you s
 **Requirements:** 
 * You must use `JOIN` to solve this question and the other questions in this section.
 * Your results should be ordered by `LastName` (A through Z).
+* **FIX TO AUTOGRADER:** Your results should also be ordered based on increasing order of the `Total` column.
 
 #### Q16: Which customers purchased the tracks by "Queen"?
 
