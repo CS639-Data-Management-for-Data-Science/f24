@@ -13,6 +13,7 @@
 - 10:38 27 Sep 2024: Updating q23 & q24 sorting requirements (autograder will be fixed shortly)
 - 10:40 27 Sep 2024: Updating q25 sorting requirements (autograder will be fixed shortly)
 - 10:43 27 Sep 2024: Updating q27 sorting requirements and fixing existing requirements (autograder will be fixed shortly)
+- 10:45 27 Sep 2024: Updating q28 sorting requirements (autograder will be fixed shortly)
 
 ## Parter policy for this assignment
 
@@ -283,6 +284,7 @@ In this section, you will employ SQL **grouping** clause and **windowing** funct
 * Your results must include the artist name `ArtistName`, and corresponding total revenue `TotalRevenue`.
 * Total revenue calculation: `UnitPrice * Quantity`
 * Your results should be ordered by descending order of total revenue.
+* **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `ArtistName`.
 
 #### Q29: Which genres have greater than 20 minute average track duration?
 
