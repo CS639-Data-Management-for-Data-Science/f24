@@ -16,6 +16,7 @@
 - 10:45 27 Sep 2024: Updating q28 sorting requirements (autograder will be fixed shortly)
 - 10:49 27 Sep 2024: Updating q30 & q32 sorting requirements (autograder will be fixed shortly)
 - 10:52 27 Sep 2024: Updating q31 sorting requirements (autograder will be fixed shortly)
+- 12:02 27 Sep 2024: Updating solution q15, 23, 24, 25, 27, 28, 30, 31
 
 ## Parter policy for this assignment
 
