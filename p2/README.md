@@ -9,6 +9,7 @@
 - 17:45 24 Sep 2024: Updating partner policy
 - 20:43 25 Sep 2024: Updating the q31 solution
 - 9:40 27 Sep 2024: Updating q15 sorting requirements (autograder will be fixed shortly)
+- 10:32 27 Sep 2024: Updating q21 sorting requirements (autograder will be fixed shortly)
 
 ## Parter policy for this assignment
 
@@ -184,7 +185,7 @@ Now that you have the basic information and understanding of the database, you s
 **Requirements:** 
 * You must use `JOIN` to solve this question and the other questions in this section.
 * Your results should be ordered by `LastName` (A through Z).
-* **FIX TO AUTOGRADER:** Your results should also be ordered based on increasing order of the `Total` column.
+* **UPDATED REQUIREMENT:** Your results should also be ordered based on increasing order of the `Total` column.
 
 #### Q16: Which customers purchased the tracks by "Queen"?
 
@@ -224,6 +225,7 @@ Now that you have the basic information and understanding of the database, you s
 
 **Requirements:** 
 * Your results must include the playlist name `PlaylistName`.
+* **UPDATED REQUIREMENT:** Your results should also be ordered based on `PlaylistName` (A through Z).
 
 #### Q22: List all the employees (sales agents) who supported customers that purchased tracks by "Queen." 
 
