@@ -17,6 +17,7 @@
 - 10:49 27 Sep 2024: Updating q30 & q32 sorting requirements (autograder will be fixed shortly)
 - 10:52 27 Sep 2024: Updating q31 sorting requirements (autograder will be fixed shortly)
 - 12:02 27 Sep 2024: Updating solution q15, 23, 24, 25, 27, 28, 30, 31
+- 14:11 27 Sep 2024: Updating q30, add `ExpenditureRank` requirement
 
 ## Parter policy for this assignment
 
@@ -298,7 +299,7 @@ In this section, you will employ SQL **grouping** clause and **windowing** funct
 #### Q30: What is the total expenditure incurred by customers who purchased tracks by "Queen"?
 
 **Requirements:** 
-* Your results must include the `CustomerId`, `FirstName`, `LastName`, and corresponding total expenditure `TotalExpenditure`.
+* Your results must include the `CustomerId`, `FirstName`, `LastName`, and corresponding total expenditure `TotalExpenditure` then put the descending rank of total expenditure as `ExpenditureRank`.
 * Total expenditure calculation: `UnitPrice * Quantity`
 * Your results should be ordered by descending order of total expenditure.
 * **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `CustomerId`.
