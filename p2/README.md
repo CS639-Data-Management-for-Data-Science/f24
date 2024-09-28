@@ -4,10 +4,21 @@
 
 ## Clarifications / fixes
 
-- 18:48 22 Sep 2024: Update Github classroom link
+- 18:48 22 Sep 2024: Updating Github classroom link
 - 22:11 23 Sep 2024: SQL queries might return generic dataframe objects! Please typecast them appropriately. For ex - Typecast columns with date information to pandas `Datetime` objects to pass the autograder. (You can use `autograder_beta.py` to get a more verbose output to figure out such inconsistencies)
-- 17:45 24 Sep 2024: Update partner policy
-- 20:43 25 Sep 2024: Update the q31 solution
+- 17:45 24 Sep 2024: Updating partner policy
+- 20:43 25 Sep 2024: Updating the q31 solution
+- 9:40 27 Sep 2024: Updating q15 sorting requirements (autograder will be fixed shortly)
+- 10:32 27 Sep 2024: Updating q21 sorting requirements (autograder will be fixed shortly)
+- 10:38 27 Sep 2024: Updating q23 & q24 sorting requirements (autograder will be fixed shortly)
+- 10:40 27 Sep 2024: Updating q25 sorting requirements (autograder will be fixed shortly)
+- 10:43 27 Sep 2024: Updating q27 sorting requirements and fixing existing requirements (autograder will be fixed shortly)
+- 10:45 27 Sep 2024: Updating q28 sorting requirements (autograder will be fixed shortly)
+- 10:49 27 Sep 2024: Updating q30 & q32 sorting requirements (autograder will be fixed shortly)
+- 10:52 27 Sep 2024: Updating q31 sorting requirements (autograder will be fixed shortly)
+- 12:02 27 Sep 2024: Updating solution q15, 23, 24, 25, 27, 28, 30, 31
+- 14:11 27 Sep 2024: Updating q30, add `ExpenditureRank` requirement
+- 12:02 28 Sep 2024: Updating answer of q34
 
 ## Parter policy for this assignment
 
@@ -183,6 +194,7 @@ Now that you have the basic information and understanding of the database, you s
 **Requirements:** 
 * You must use `JOIN` to solve this question and the other questions in this section.
 * Your results should be ordered by `LastName` (A through Z).
+* **UPDATED REQUIREMENT:** Your results should also be ordered based on increasing order of the `Total` column.
 
 #### Q16: Which customers purchased the tracks by "Queen"?
 
@@ -222,6 +234,7 @@ Now that you have the basic information and understanding of the database, you s
 
 **Requirements:** 
 * Your results must include the playlist name `PlaylistName`.
+* **UPDATED REQUIREMENT:** Your results should also be ordered based on ascending order of `PlaylistName`.
 
 #### Q22: List all the employees (sales agents) who supported customers that purchased tracks by "Queen." 
 
@@ -235,12 +248,14 @@ Now that you have the basic information and understanding of the database, you s
 **Requirements:** 
 * Your result should include album title `AlbumTitle`, and artist name `ArtistName`.
 * **IMPORTANT NOTE**: You may **NOT** use a regular join to answer this question. Instead, you **MUST** use `LEFT JOIN`.
+* **UPDATED REQUIREMENT:** Your results should be ordered by ascending order of `AlbumTitle` and ascending order of `ArtistName`.
 
 #### Q24: Retrieve a list of all artists and their corresponding albums, including artists who have not released any albums.
 
 **Requirements:** 
 * Your result should include album title `AlbumTitle`, and artist name `ArtistName`.
 * **IMPORTANT NOTE**: You may **NOT** use a regular join to answer this question. Instead, you **MUST** use `RIGHT JOIN`.
+* **UPDATED REQUIREMENT:** Your results should be ordered by ascending order of `AlbumTitle` and ascending order of `ArtistName`.
 
 ## Section 3: Grouping and windowing (11 questions)
 
@@ -253,18 +268,20 @@ In this section, you will employ SQL **grouping** clause and **windowing** funct
 **Requirements:** 
 * Your results must include the `GenreId`, and track count `TrackCount` for each genre.
 * Your results should be ordered by descending order of track count.
+* **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `GenreId`.
 
 #### Q26: What is the total duration (in hours) of tracks for top 5 longest albums?
 
 **Requirements:** 
-* Your results must include the `AlbumId`, album title `AlbumTitle`  and total duration in hours `TotalDurationHours` for each album.
+* Your results must include the `AlbumId`, album title `AlbumTitle` and total duration in hours `TotalDurationHours` for each album.
 * Your results should be ordered by descending order of total duration in hours.
 
 #### Q27: Retrieve all albums that contain tracks from more than one genre.
 
 **Requirements:** 
 * Your results must include the album title `AlbumTitle`, and corresponding unique genre count `GenreCount`.
-* Your results should be ordered by descending order of total duration in hours.
+* **UPDATED REQUIREMENT:** Your results should be ordered by descending order of genre count `GenreCount`.
+* **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `AlbumTitle`.
 
 #### Q28: Calculate the total revenue for all artists.
 
@@ -272,6 +289,7 @@ In this section, you will employ SQL **grouping** clause and **windowing** funct
 * Your results must include the artist name `ArtistName`, and corresponding total revenue `TotalRevenue`.
 * Total revenue calculation: `UnitPrice * Quantity`
 * Your results should be ordered by descending order of total revenue.
+* **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `ArtistName`.
 
 #### Q29: Which genres have greater than 20 minute average track duration?
 
@@ -282,9 +300,10 @@ In this section, you will employ SQL **grouping** clause and **windowing** funct
 #### Q30: What is the total expenditure incurred by customers who purchased tracks by "Queen"?
 
 **Requirements:** 
-* Your results must include the `CustomerId`, `FirstName`, `LastName`, and corresponding total expenditure `TotalExpenditure`.
+* Your results must include the `CustomerId`, `FirstName`, `LastName`, and corresponding total expenditure `TotalExpenditure` then put the descending rank of total expenditure as `ExpenditureRank`.
 * Total expenditure calculation: `UnitPrice * Quantity`
 * Your results should be ordered by descending order of total expenditure.
+* **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `CustomerId`.
 
 ### Part 2: Windowing queries
 
@@ -295,7 +314,8 @@ Window functions allow you to perform calculations across a set of rows related 
 **Requirements:** 
 * Your results must include the `TrackId`, track name `TrackName`, duration in minutes `DurationMinutes`, and corresponding duration rank `DurationRank`.
 * Ranking should be based on descending order of duration.
-* Your results should be ordered by ascending order of ascending order of duration rank. If two tracks have the same rank, then they should be ordered based on descending order of duration in minutes. 
+* Your results should be ordered by ascending order of ascending order of duration rank. If two tracks have the same rank, then they should be ordered based on descending order of duration in minutes.
+* **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `TrackId`.
 
 #### Q32: Rank customers who purchased tracks by "Queen" based on their total expenditure.
 
@@ -306,6 +326,7 @@ Window functions allow you to perform calculations across a set of rows related 
 * Total expenditure calculation: `UnitPrice * Quantity`
 * Ranking should be based on descending order of total expenditure.
 * Your results should be ordered by descending order of total expenditure.
+* **UPDATED REQUIREMENT:** Your results should also be ordered by ascending order of `CustomerId`.
 
 ### Q33: Calculate the total number of invoices for each customer and assign a sequential rank to each customer based on their total invoices.
 
