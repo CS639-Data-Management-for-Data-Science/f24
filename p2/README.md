@@ -18,6 +18,7 @@
 - 10:52 27 Sep 2024: Updating q31 sorting requirements (autograder will be fixed shortly)
 - 12:02 27 Sep 2024: Updating solution q15, 23, 24, 25, 27, 28, 30, 31
 - 14:11 27 Sep 2024: Updating q30, add `ExpenditureRank` requirement
+- 12:02 28 Sep 2024: Updating answer of q34
 
 ## Parter policy for this assignment
 
