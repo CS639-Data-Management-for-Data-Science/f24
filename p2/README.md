@@ -19,6 +19,7 @@
 - 12:02 27 Sep 2024: Updating solution q15, 23, 24, 25, 27, 28, 30, 31
 - 14:11 27 Sep 2024: Updating q30, add `ExpenditureRank` requirement
 - 12:02 28 Sep 2024: Updating answer of q34
+- 21:01 28 Sep 2024: Updating question and answer of q34
 
 ## Parter policy for this assignment
 
@@ -347,7 +348,7 @@ Window functions allow you to perform calculations across a set of rows related 
 **Requirements:** 
 * Your results must include the `BillingCountry`, `InvoiceId`, `Total`, and corresponding invoice rank `InvoiceRank`.
 * Ranking should be based on descending order of `Total`.
-* Your results should be ordered by the ascending order of `BillingCountry` and `Total`. 
+* Your results should be ordered by the ascending order of `BillingCountry`, descending order of `Total`, and ascending order of `InvoiceId` in the exact sequence mentioned above. 
 
 #### Q35: Calculate the moving average of monthly sales.
 
