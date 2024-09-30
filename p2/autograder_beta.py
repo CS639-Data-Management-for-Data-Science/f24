@@ -69,6 +69,7 @@ def grade_notebook(notebook_path):
           # print(cell.source)
           if "create_engine" in cell.source and ".connect()" in cell.source: 
             out.write("Connection to database established: 2.5 points\n")
+            total_score += 2.5
 
           elif "pd.read_sql" in cell.source:
             # Find the comment #qXX in the cell.source
