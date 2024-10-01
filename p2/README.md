@@ -388,6 +388,6 @@ If your notebook is not named p2.ipynb, you can run:
 
 ## Submission
 
-This section will be updated by Monday, Sept 23rd.
+**Github Classroom Invitation Link: [https://classroom.github.com/a/1lhNtVba](https://classroom.github.com/a/1lhNtVba)**
 
 
