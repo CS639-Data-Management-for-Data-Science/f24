@@ -1,6 +1,6 @@
 # P3 (6% of grade): MongoDB
 
-Github Classroom Link: [https://classroom.github.com/a/9QLZxrY7](https://classroom.github.com/a/9QLZxrY7)
+Github Classroom Link: [https://classroom.github.com/a/9QLZxrY7](https://classroom.github.com/a/9QLZxrY7) (group assignment)
 
 ## :telescope: Overview
 
