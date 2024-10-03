@@ -331,7 +331,7 @@ def plot_theaters(theaters, map_type, filename):
 - The structure of the required files for your submissions is as follows:
 ```
 p3-<your_team_name>
-|--- README.md (list names of team members at the top)
+|--- README.md (list names and e-mail IDs of team members at the top)
 |--- p3.ipynb
 |--- answers
      |--- q1.pkl
