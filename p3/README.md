@@ -45,8 +45,6 @@ docker ps
 - If you haven't already installed these packages on your VM, make sure to complete the below installations:
 
 ```bash
-sudo apt-get update
-sudo apt-get install python3-pip wget unzip
 pip3 install jupyter pandas nbformat nbconvert
 ```
 
