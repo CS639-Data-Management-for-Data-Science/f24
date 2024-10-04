@@ -24,7 +24,7 @@ docker pull mongo
 docker run --name <container-name> -d -p 127.0.0.1:27017:27017 mongo
 ```
 ```
-docker exec -it \<CONTAINER NAME\> bash
+docker exec -it <CONTAINER NAME> bash
 ```
 
 --------------------------------
