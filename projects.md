@@ -63,7 +63,7 @@ announcements providing project invite links.
 
 ## Late Policy
 
-The general rule is no submissions >3 days late.  Each day late suffers a 10% penalty (so a 90% submission that is 2 days late gets 70%).
+The general rule is no submissions >3 days late. **That is the hard deadline for each project is 3 days after the regular deadline.**  Each day late suffers a 10% penalty (so a 90% submission that is 2 days late gets 70%).
 
 Common exceptions, and who to ask:
 - Illness: you can **ask the instructor** to override the late penalty, but they cannot give more than 3 days.  To qualify, you share a link to your repo; your commit history should show you made a substantial start on the project at least 3 days prior to the deadline
