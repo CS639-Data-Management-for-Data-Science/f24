@@ -17,7 +17,9 @@ Before starting, please review the [general project directions](../projects.md).
 
 :warning: Please use Piazza to post (public/private) any questions regarding this project, as e-mails will NOT be answered. If you need to include your code to get help, please make a **private** post.
 
-<!-- ## :pushpin: Corrections/Clarifications -->
+## :pushpin: Corrections/Clarifications
+
+1. **[Oct 09, 2024]** Fixed official solutions for `Q25` and `Q30`. This should be automatically reflected in autograding (that is, if you had a correct solution but were getting marked `FAILED`, this should fix it).
 
 ## :hammer_and_wrench: Setting up MongoDB using Docker
 
