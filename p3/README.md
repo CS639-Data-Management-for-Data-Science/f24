@@ -20,6 +20,7 @@ Before starting, please review the [general project directions](../projects.md).
 ## :pushpin: Corrections/Clarifications
 
 1. **[Oct 09, 2024]** Fixed official solutions for `Q25` and `Q30`. This should be automatically reflected in autograding (that is, if you had a correct solution but were getting marked `FAILED`, this should fix it).
+2. **[Oct 14, 2024]** Added clarifications for `Q6` and `Q16`. This will not affect any correct submissions.
 
 ## :hammer_and_wrench: Setting up MongoDB using Docker
 
@@ -143,6 +144,7 @@ For your personal verification, you can display the output of the your queries.
 
 #### Q6: Count the number of movies released after the year 2000.
 - Your output should only be the total count (a numeric value).
+- Please use the `year` field, not `released`.
 
 #### Q7: Count the number of movies in the "Comedy" genre.
 - Your output should only be the total count (a numeric value).
@@ -181,6 +183,7 @@ For your personal verification, you can display the output of the your queries.
 
 #### Q16: Find the total number of comments made on movies released in 2010.
 - Your output should only be the total count (a numeric value).
+- Please use the `year` field, not `released`.
 
 #### Q17: Find all unique users who have commented on "Action" movies.
 - Your output should be a `list` of user names (not `dict`), sorted in ascending order.
