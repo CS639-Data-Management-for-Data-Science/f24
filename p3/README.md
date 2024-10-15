@@ -21,6 +21,7 @@ Before starting, please review the [general project directions](../projects.md).
 
 1. **[Oct 09, 2024]** Fixed official solutions for `Q25` and `Q30`. This should be automatically reflected in autograding (that is, if you had a correct solution but were getting marked `FAILED`, this should fix it).
 2. **[Oct 14, 2024]** Added clarifications for `Q6` and `Q16`. This will not affect any correct submissions.
+3. **[Oct 15, 2024]** Added clarifications for `Q25` and `Q30`. This will not affect any correct submissions.
 
 ## :hammer_and_wrench: Setting up MongoDB using Docker
 
@@ -230,7 +231,7 @@ For your personal verification, you can display the output of the your queries.
    - `total_comments`: number of total comments for given movie
 - Sort in decreasing order of `total_comments`.
 - For tie-breaker, use ascending order of `movie.title`.
-
+- If you're still failing the autograder because of sorting issues, try performing `$group` _before_ `$lookup` in your pipeline.
 
 ## :orange_book: Section 3: Hard MQL commands (6 questions)
 :point_right: Each question in this section is worth 0.3 points.
@@ -264,6 +265,7 @@ For your personal verification, you can display the output of the your queries.
 - Your output should only include one field:
    - `_id`: user name
 - Sort in ascending order of `_id`.
+- The following operators might be helpful: [`$addToSet`](https://www.mongodb.com/docs/manual/reference/operator/update/addToSet/), [`$cond`](https://www.mongodb.com/docs/manual/reference/operator/aggregation/cond/), and [`in`](https://www.mongodb.com/docs/manual/reference/operator/aggregation/in/).
 
 #### Q31: Find the user who commented on the most distinct movies (i.e., most distinct `movie_ids`).
 - Your output should include two fields for the user:
