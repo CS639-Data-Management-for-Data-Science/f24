@@ -10,6 +10,8 @@ Students may work alone or optionally work in groups of two.
 * the repo history should show at least one commit from each partner
   *  we do not proactively check if both partners make at least one commit every time, but when GitHub Classroom makes mistake on team membership (which happens more frequently than you might think), this is the easiest way to prove your contribution to your team
 * it's NOT OK to submit code from your partner that you didn't help write or understand
+* to state the obvious, we do not expect students who partner up to split the project into two halves and have each of you work on one half (reasoning being simple - the other person will miss out on the learning that comes from the part that they didn't work on)
+* projects are going to be the best way for you to gain practical experience in this course. Please don't deprive yourself or your partner of that learning. 
 
 **Other Collaboration**
 * a comment at the top should list everybody you talked to or collaborated with (besides course staff, of course) by their @wisc.edu email
