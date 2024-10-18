@@ -222,7 +222,7 @@ D. Book your tickets early :)
 
 ---
 
-## 🖌️ Section 4: Interactive Visualization: Making the 639 Madison maps application
+## 🖌️ Section 3: Interactive Visualization: Making the 639 Madison maps application
 
 > Objectives: Learn interactive geospatial visualization with Kibana and have fun 
 
