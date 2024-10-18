@@ -142,7 +142,7 @@ Since Elasticsearch literally creates an indexable/hash-searching data-structure
 
 ## :floppy_disk: Writing code in `p4.ipynb`  
 
-1. Inside your notebook, use the appropriate `bash` command to download ```data.zip```. Use this URL to download: [data.zip](https://github.com/CS639-Data-Management-for-Data-Science/f24/blob/442903c8bbd229bb56132ec7df373d90849714f0/p4/data.zip)
+1. Inside your notebook, use the appropriate `bash` command to download ```data.zip```. Use this URL to download: https://github.com/CS639-Data-Management-for-Data-Science/f24/blob/442903c8bbd229bb56132ec7df373d90849714f0/p4/data.zip
 2. Write code to invoke appropriate `bash` command to unzip the zip file.
 3. **Make the connection to Elastisearch using the [python elasticsearch-client](https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html)** with your username (usually elastic) and password OR API key as demonstrated in the lecture. 
 
