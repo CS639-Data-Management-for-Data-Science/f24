@@ -8,7 +8,7 @@ I will use this file to mention installation requirements for lecture demos and 
 
 ```
 pip3 install jupyter pandas nbformat nbconvert
-pip3 install pymongo
+pip3 install pymongo 
 pip3 install geopandas matplotlib
 ```
 
