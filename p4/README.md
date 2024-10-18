@@ -267,6 +267,7 @@ D. Book your tickets early :)
 ## :outbox_tray: Submission
 
 - GitHub Classroom will automatically select your last pushed commit before the deadline as your submission.
+- You can also run `autograder.py` locally by invoking `pytest autograder.py`. If you don't have pytest: `pip3 install pytest`
 
 - The structure of the required files for your submissions is as follows:
 ```
