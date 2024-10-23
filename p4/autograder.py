@@ -58,12 +58,12 @@ def test_client_info(question):
     except Exception as e:
         assert False, f"Question {question} json not found at {SOLUTIONS_DIR}/q{question}.json"
     check_keys = ["name", "cluster_name", "cluster_uuid", "version", "tagline"]
-    check_elastic_version_number = "8.15.2"
+    check_elastic_version_number = ["8.15.2", "8.15.3"]
     assert student_answer is not None, f"Question {question}: No solution found."
     for key in check_keys:
         assert key in student_answer, f"Question {question}: '{key}' key not found."
     # print(student_answer["version"]["number"], check_elastic_version_number)
-    assert student_answer["version"]["number"] == check_elastic_version_number, f"Question {question}: Elastic version number mismatch. We are using 8.15.2!"
+    assert student_answer["version"]["number"] in check_elastic_version_number, f"Question {question}: Elastic version number mismatch. We are using 8.15.2/3!"
     test_scores[question] = weights[question - 1]
 
 
