@@ -182,7 +182,7 @@ with open('answers/q1.json', 'w') as f:
 
 #### Q4: What are the 3 biggest football rivalries of Wisconsin Badgers? [0.5 points]
 
-* Write a `simple_query_string` query and save the response as q4.json
+* Write a `simple_query_string` query, filtering or searching within the `wiki` field and save the response as q4.json
 
 
 **NOTE:** You will pass the autograder if your search `_score` is higher than 6   
