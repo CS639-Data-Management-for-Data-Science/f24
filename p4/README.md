@@ -197,6 +197,7 @@ with open('answers/q1.json', 'w') as f:
 
 #### Q5: Hmmm that is still a lot of text to look through! Can you highlight what you found in Q4? [0.5 points]
 
+* Highlight the `wiki` field.
 * Save `response['hits']['hits'][0]['highlight']` as q5.json
 
 
