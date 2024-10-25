@@ -182,7 +182,7 @@ with open('answers/q1.json', 'w') as f:
   <summary>
     Hint:
   </summary>
-  <p>Use `put_mapping` to update the schema first, then load the text files</p>
+  <p>Use 'put_mapping' to update the schema first, then load the text files</p>
 </details>
 
 
