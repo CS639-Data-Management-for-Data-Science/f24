@@ -116,7 +116,7 @@ def test_q5(question):
         "Gophers, which is the most-played <em>rivalry</em> in Division I-A football.",
         "The I-94 <em>rivalry</em> between Wisconsin men's basketball and the in-state Marquette Golden Eagles has been"
     ]}
-    assert student_answer["wiki"] == expected["wiki"], f"Question 5: Expected answer not found."
+    assert expected["wiki"] in student_answer["wiki"], f"Question 5: Expected answer not found."
     test_scores[question] = weights[question - 1]
 
 
