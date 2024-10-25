@@ -19,7 +19,7 @@
 * Local autograder (not the github actions one) accepts elastic version 8.15.3 as well now. 
 * q2: "please load the entire document in the index"
 * q4: "filtering or searching within the `wiki` field"
-* 
+* q7: var: `total_sum_arrests` changed to `total_arrests_sum`
   
 ## :telescope: Overview
 
@@ -217,7 +217,7 @@ D. Book your tickets early :)
 
 #### Q7: How many people were arrested in the State Street Halloween Party from from 2001 to 2019? [0.8 points]
 
-**NOTE:**  Please name your sum variable `total_sum_arrests` Save the `response['aggregations']` to q7.json.
+**NOTE:**  Please name your sum variable `total_arrests_sum` Save the `response['aggregations']` to q7.json.
 
 <details>
   <summary>
