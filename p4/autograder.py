@@ -110,13 +110,12 @@ def test_q5(question):
         assert False, f"Question 5 json not found at {SOLUTIONS_DIR}/q5.json"
     assert student_answer is not None, f"Question 5: No solution found."
     assert "wiki" in student_answer, f"Question 5: 'wiki' key not found."
-    expected = {
-    "wiki": [
-        "Rivalries\nThe Wisconsin Badgers' most notable <em>rivalry</em> within the Big Ten is with the Minnesota Golden",
-        "Gophers, which is the most-played <em>rivalry</em> in Division I-A football.",
-        "The I-94 <em>rivalry</em> between Wisconsin men's basketball and the in-state Marquette Golden Eagles has been"
-    ]}
-    assert expected["wiki"] in student_answer["wiki"], f"Question 5: Expected answer not found."
+    expected_1 = "Minnesota Golden"
+    expected_2 = "Gophers"
+    expected_3 = "Marquette Golden Eagles"
+    assert expected_1 in student_answer["wiki"], f"Question 5: Expected Minnesota Golden - not found."
+    assert expected_2 in student_answer["wiki"], f"Question 5: Expected Gophers - not found."
+    assert expected_3 in student_answer["wiki"], f"Question 5: Expected Marquette Golden Eagles - not found."
     test_scores[question] = weights[question - 1]
 
 
