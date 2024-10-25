@@ -205,7 +205,7 @@ with open('answers/q1.json', 'w') as f:
   <summary>
     Hint:
   </summary>
-  <p>Read up on [Boosting](https://weng.gitbooks.io/elasticsearch-in-action/content/chapter6_searching_with_relevancy/63boosting.html) and [Use Cases of Boosting](https://stackoverflow.com/a/73957996)</p>
+  <p>Read up on Boosting (https://weng.gitbooks.io/elasticsearch-in-action/content/chapter6_searching_with_relevancy/63boosting.html) and 'Use Cases of Boosting' (https://stackoverflow.com/a/73957996)</p>
 </details>
 
 
