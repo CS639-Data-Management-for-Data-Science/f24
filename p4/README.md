@@ -16,6 +16,11 @@
 
 ## Clarifications / fixes
 
+* Local autograder (not the github actions one) accepts elastic version 8.15.3 as well now. 
+* q2: "please load the entire document in the index"
+* q4: "filtering or searching within the `wiki` field"
+* 
+  
 ## :telescope: Overview
 
 Learning Objectives:
