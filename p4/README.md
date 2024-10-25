@@ -20,6 +20,7 @@
 * q2: "please load the entire document in the index"
 * q3: Added hint
 * q4: "filtering or searching within the `wiki` field"
+* q5: Use a `match_phrase` query
 * q7: var: `total_sum_arrests` changed to `total_arrests_sum`
   
 ## :telescope: Overview
@@ -212,6 +213,7 @@ with open('answers/q1.json', 'w') as f:
 #### Q5: Hmmm that is still a lot of text to look through! Can you highlight what you found in Q4? [0.5 points]
 
 * Highlight the `wiki` field.
+* Use a `match_phrase` query
 * Save `response['hits']['hits'][0]['highlight']` as q5.json
 
 
