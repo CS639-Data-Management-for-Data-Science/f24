@@ -22,6 +22,8 @@
 * q4: "filtering or searching within the `wiki` field"
 * q5: Use a `match_phrase` query
 * q7: var: `total_sum_arrests` changed to `total_arrests_sum`
+* q9: Please `copy value of _source`
+
   
 ## :telescope: Overview
 
@@ -261,6 +263,7 @@ D. Book your tickets early :)
 
 #### Q9: Why is this any better than Google Maps? From the interactive viewer, filter the most expensive place and find the corresponding document in Kibana. [0.5 points]
 
+* Copy value of _source from Kibana
 * Save that as q9.json
 
 <details>
