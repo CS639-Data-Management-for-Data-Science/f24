@@ -11,7 +11,7 @@ Learning Objectives:
 
 Before starting the project, please view the [general project directions](https://github.com/CS639-Data-Management-for-Data-Science/f24/blob/main/projects.md).
 
-:warning: :warning:  :warning:**[IMPORTANT] Submission Policy:  This project is a little different from other projects, you need to submit a typed PDF file that explains how you complete the project. We recommend you either use Overleaf to Latex to type it or compile a Markdown into a PDF. We DO NOT accept handwritten submissions**
+:warning: :warning:  :warning:**[IMPORTANT] Submission Policy**: This project is a little different from other projects, you need to submit a typed PDF file that explains how you complete the project. We recommend you either use Overleaf to Latex to type it or compile a Markdown into a PDF or generate a PDF from word or google docs. We DO NOT accept handwritten submissions. If you have a **project partner**, make sure to add screenshots from both of your accounts into the report.
 
 ⚠️ The project will be in three parts. **The latter half of this project will be HARD! We recommend you start early**.
 
