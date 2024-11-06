@@ -1,5 +1,5 @@
 # P5 (6% of grade): ETL
-GitHub Classroom Link: **TBD**
+GitHub Classroom Link: **[https://classroom.github.com/a/UGOl89jE](https://classroom.github.com/a/UGOl89jE)**
 
 ## Overview
 In this project, you will get familiar with ETL workflow in data analysis, using Airbyte to Extract and Load the data, and DBT to Transform data. We will use the NYC Taxi dataset.
@@ -20,6 +20,7 @@ Before starting the project, please view the [general project directions](https:
 ## Corrections / Clarifications
 - 10:15 a.m. Nov 6th 2024: Update GNews and Part 2 submission instructions
 - 11:55 a.m. Nov 6th 2024: Delete part3 and update submission instructions for Part 2
+- 3:21 p.m. Nov 6th 2024: Added GitHub classroom link
 
 
 ## 1. Extract and Load data using Airbyte (6 points)
