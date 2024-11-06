@@ -18,6 +18,7 @@ Before starting the project, please view the [general project directions](https:
 ⚠️ Please use Piazza to post (public/private) any questions regarding this project, as e-mails will NOT be answered. If you need to include your code to get help, please make a private post.
 
 ## Corrections / Clarifications
+- 10:15 a.m. Nov 6th 2024: Update GNews and Part 2 submission instructions
 
 
 ## 1. Extract and Load data using Airbyte (6 points)
@@ -80,7 +81,7 @@ You need to firstly download the data to your own computer, then upload it to th
 
 ---
 
-To get credits for Question 1.5, you need to write SQL queries in Snowflake to obtain 5 example lines in` NYC taxi` record dataset, `Taxi zone` dataset, and `GNews` dataset. Name them as `taxi_record.csv`,  `taxi_zone.csv`, and `GNews.csv`. Add them to the GitHub Repo.
+To get credits for Question 1.5, you need to write SQL queries in Snowflake to obtain 5 example lines in` NYC taxi` record dataset, `Taxi zone` dataset, and `GNews` dataset. Name them as `taxi_record.csv`,  `taxi_zone.csv`, and `GNews.csv`. Add them to the GitHub Repo. In terms of GNews result, both `TopHeadings` and `Search` table result are ok.
 
 
 ## 2 Transform data (3 points)
@@ -96,7 +97,7 @@ You need to transform the drop-off location ID (`DOLOCATIONID`) of the original 
 6. EWR (airport)
 7. Others
 
-To get credit for this question, you need to report the portion of the data records within those areas, include the data in a file named `Q2_answer.txt` **(Note: you do not need to be extremely accurate about the numbers, as long as it is in a valid range, it will be ok)**. The data format should be like follows:
+To get credit for this question, you need to report the portion of the data records within those areas, include the data in a file named `Q2_answer.txt` **(Note: The classes you have should be correct, but do not need to be extremely accurate about the numbers, as long as it is in a valid range, it will be ok)**. The data format should be like follows:
 
 ```text
 Manhattan: 0.xxxx
