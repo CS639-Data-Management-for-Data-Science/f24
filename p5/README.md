@@ -5,7 +5,7 @@ GitHub Classroom Link: **TBD**
 In this project, you will get familiar with ETL workflow in data analysis, using Airbyte to Extract and Load the data, and DBT to Transform data. We will use the NYC Taxi dataset.
 
 Learning Objectives:
-1. Learn to set Airbyte using Docker on the Google VM
+1. Learn to set Airbyte online tool.
 2. Explore combining Airbyte and DBT in Snowflake to jointly process the data
 3. Get the experience in writing a data analysis report。
 
@@ -13,12 +13,13 @@ Before starting the project, please view the [general project directions](https:
 
 :warning: :warning:  :warning:**[IMPORTANT] Submission Policy**: This project is a little different from other projects, you need to submit a typed PDF file that explains how you complete the project. We recommend you either use Overleaf to Latex to type it or compile a Markdown into a PDF or generate a PDF from word or google docs. We DO NOT accept handwritten submissions. Even if you have a **project partner**, please make sure to submit individual reports, but add your partner information to the top of your report.
 
-⚠️ The project will be in three parts. **The latter half of this project will be HARD! We recommend you start early**.
+⚠️ The project will be in ~~three~~ two parts. ~~**The latter half of this project will be HARD! We recommend you start early**.~~
 
 ⚠️ Please use Piazza to post (public/private) any questions regarding this project, as e-mails will NOT be answered. If you need to include your code to get help, please make a private post.
 
 ## Corrections / Clarifications
 - 10:15 a.m. Nov 6th 2024: Update GNews and Part 2 submission instructions
+- 11:55 a.m. Nov 6th 2024: Delete part3 and update submission instructions for Part 2
 
 
 ## 1. Extract and Load data using Airbyte (6 points)
@@ -84,11 +85,11 @@ You need to firstly download the data to your own computer, then upload it to th
 To get credits for Question 1.5, you need to write SQL queries in Snowflake to obtain 5 example lines in` NYC taxi` record dataset, `Taxi zone` dataset, and `GNews` dataset. Name them as `taxi_record.csv`,  `taxi_zone.csv`, and `GNews.csv`. Add them to the GitHub Repo. In terms of GNews result, both `TopHeadings` and `Search` table result are ok.
 
 
-## 2 Transform data (3 points)
+## 2 Transform data (4 points)
 
 In this section, you can freely select your favorite DBT tools (we suggest you use SQL) in Snowflake. We will check the correctness of your data only on results. 
 
-You need to transform the drop-off location ID (`DOLOCATIONID`) of the original data into seven districts of NYC list as follows:
+You need to transform the pick-up location ID (`PULOCATIONID`) drop-off location ID (`DOLOCATIONID`) of the original data into seven districts of NYC list as follows:
 1. Manhattan
 2. Brooklyn
 3. Queens
@@ -97,9 +98,19 @@ You need to transform the drop-off location ID (`DOLOCATIONID`) of the original 
 6. EWR (airport)
 7. Others
 
-To get credit for this question, you need to report the portion of the data records within those areas, include the data in a file named `Q2_answer.txt` **(Note: The classes you have should be correct, but do not need to be extremely accurate about the numbers, as long as it is in a valid range, it will be ok)**. The data format should be like follows:
-
+Submission instructions for this section:
+1. Report the portion of the data within these areas in a file named `Q2_answer.txt`. The format should be as follows: **(Note: The classes you have should be correct, but do not need to be extremely accurate about the numbers, as long as it is in a valid range, it will be ok)** (2 points)
 ```text
+Pick-up:
+Manhattan: 0.xxxx
+Brooklyn: 0.xxxx
+Queens: 0.xxxx
+Bronx: 0.xxxx
+Staten Island: 0.xxxx
+EWR: 0.xxxx
+Others: 0.xxxx
+
+Drop-down:
 Manhattan: 0.xxxx
 Brooklyn: 0.xxxx
 Queens: 0.xxxx
@@ -108,12 +119,12 @@ Staten Island: 0.xxxx
 EWR: 0.xxxx
 Others: 0.xxxx
 ```
+2. Add a `SQL` or `Python` or any other method you use in your report and detail how you achieve such transformation. (2 points)
 
 
+~~## 3 Write analysis report (2 points)~~
 
-## 3 Write analysis report (2 points)
-
-**This part will be completion-based, as long as you submit a valid result, you will be granted credits**
-Find your favorite map of NYC, export it into Snowflake, and randomly sample 10k data points from your processed dataset last step. Put the pick-up location location on the map, and use 7 different colors to represent the meter-disengaged location. Export and upload the map.
+~~**This part will be completion-based, as long as you submit a valid result, you will be granted credits**~~
+~~Find your favorite map of NYC, export it into Snowflake, and randomly sample 10k data points from your processed dataset last step. Put the pick-up location location on the map, and use 7 different colors to represent the meter-disengaged location. Export and upload the map.~~
 
 
