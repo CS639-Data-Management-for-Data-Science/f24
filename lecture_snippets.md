@@ -2,6 +2,14 @@
 
 I will use this file to mention installation requirements for lecture demos and also any code snippets that I will be copy/pasting during the lecture demo.
 
+## Fri, Nov 8 (dbt):
+
+sudo apt update
+sudo apt install -y ca-certificates curl gnupg lsb-release
+
+docker pull ghcr.io/dbt-labs/dbt-snowflake:latest
+
+
 ## Fri, Oct 4 (MongoDB):
 
 #### Installations on your VM:
