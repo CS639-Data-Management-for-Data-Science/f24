@@ -71,7 +71,7 @@ To get credit for this question, you are required to include the screenshot of p
 
 ### 1.5 Load data to Snowflake
 
-#### 1.5.1 Synchronizing data from Airbyte to Snowflake (1 point)
+#### 1.5.1 Synchronizing data from Airbyte to Snowflake (1 point) (OR 1.5.2 | Either)
 
 You can use Airbyte to build a connection to Snowflake to transform data. In the `Connections` part of Airbyte, use `New Connection` to upload both datasets to Snowflake. In this project, your setting can be overwrite-only. 
 
