@@ -127,5 +127,3 @@ Others: 0.xxxx
 
 ~~**This part will be completion-based, as long as you submit a valid result, you will be granted credits**~~
 ~~Find your favorite map of NYC, export it into Snowflake, and randomly sample 10k data points from your processed dataset last step. Put the pick-up location location on the map, and use 7 different colors to represent the meter-disengaged location. Export and upload the map.~~
-
-
