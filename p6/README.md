@@ -8,6 +8,11 @@
 * **Github Classroom Invite for P6: https://classroom.github.com/a/PCd71f6r**
 
 ---      
+# Clarification/Fixes 
+
+1. Q7 is no longer a part of the assignment. Please do not attempt.
+
+---
 
 ## Learning Objectives
 
@@ -80,26 +85,25 @@ Concepts: Plotting, correlations, data imputation, leakage, one-hot encoding.
 
 ### Data Leakage 😵‍💫
 
-**Q7. Which 2 features do you think fit the description of look-ahead data leakage? [0.1 Points]**
+~~**Q7. Which 2 features do you think fit the description of look-ahead data leakage? [0.1 Points]**~~
 
-* Notebook should print:
-```The 2 data leakage features are: <feature-1> and <feature-2>```
+* ~~Notebook should print:~~
+~~```The 2 data leakage features are: <feature-1> and <feature-2>```~~
 
-* Note feature names should exactly match column names.
+* ~~Note feature names should exactly match column names.~~
 
 <details>
   <summary>Hint: Types of Leakages and their definitions:</summary>
   <p>
-    <ul>
-      <li> Preprocessing Leakage: This occurs when preprocessing (like scaling or normalization) is done on the entire dataset, rather than separately on the training and test datasets. For example, if you normalize the entire dataset to have a mean of 0 and a standard deviation of 1, and then split it into training and test sets, the test set's statistics will have influenced the training set's preprocessing.
+  1. Preprocessing Leakage: This occurs when preprocessing (like scaling or normalization) is done on the entire dataset, rather than separately on the training and test datasets. For example, if you normalize the entire dataset to have a mean of 0 and a standard deviation of 1, and then split it into training and test sets, the test set's statistics will have influenced the training set's preprocessing.
 
-    <li> Feature Engineering Leakage: This happens when features are created using information from the entire dataset. For instance, if you're trying to predict whether a user will buy a product and you create a feature that counts the number of products bought by a user, including data after the split date, you've introduced future information into the past.
+  2. Feature Engineering Leakage: This happens when features are created using information from the entire dataset. For instance, if you're trying to predict whether a user will buy a product and you create a feature that counts the number of products bought by a user, including data after the split date, you've introduced future information into the past. 
 
-    <li> Model Validation Leakage: If you use the test set to make decisions about model architecture, hyperparameters, or other aspects of the model, you're effectively using the test set as part of the training process. This can lead to overfitting to the test set.
+  3. Model Validation Leakage: If you use the test set to make decisions about model architecture, hyperparameters, or other aspects of the model, you're effectively using the test set as part of the training process. This can lead to overfitting to the test set. 
 
-    <li> Temporal Leakage: In time series data, using future data to predict past events is a common form of leakage. For example, if you're trying to predict stock prices, using tomorrow's price as a feature to predict today's price would be a clear case of data leakage.
+  4. Temporal Leakage: In time series data, using future data to predict past events is a common form of leakage. For example, if you're trying to predict stock prices, using tomorrow's price as a feature to predict today's price would be a clear case of data leakage. 
 
-    <li> External Data Leakage: If you enrich your dataset with external data, you must ensure that this data would have been available at the time of prediction. For instance, if you're predicting store sales for a particular month and you add weather data, you must ensure that you're not using weather data from after the month you're trying to predict.
+  5. External Data Leakage: If you enrich your dataset with external data, you must ensure that this data would have been available at the time of prediction. For instance, if you're predicting store sales for a particular month and you add weather data, you must ensure that you're not using weather data from after the month you're trying to predict. 
   </ul>
   </p>
 </details>
