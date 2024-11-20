@@ -21,9 +21,10 @@ Before starting the project, please view the [general project directions](https:
 - 10:15 a.m. Nov 6th 2024: Update GNews and Part 2 submission instructions
 - 11:55 a.m. Nov 6th 2024: Delete part3 and update submission instructions for Part 2
 - 3:21 p.m. Nov 6th 2024: Added GitHub classroom link
+- 10:17 p.m. Nov 19 2024: Update total score of part 1 to 8 (sum up correct)
 
 
-## 1. Extract and Load data using Airbyte (6 points)
+## 1. Extract and Load data using Airbyte (8 points)
 
 ### 1.1 Register Airbyte Account (1 point)
 
