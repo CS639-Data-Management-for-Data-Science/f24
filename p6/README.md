@@ -12,6 +12,7 @@
 
 1. Q7 is no longer a part of the assignment. Please do not attempt.
 2. Q3 x-axis instructions updated.
+3. You can submit your plots separately if your notebook keeps dying on you.
 
 ---
 
