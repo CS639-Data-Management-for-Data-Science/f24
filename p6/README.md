@@ -11,6 +11,7 @@
 # Clarification/Fixes 
 
 1. Q7 is no longer a part of the assignment. Please do not attempt.
+2. Q3 x-axis instructions updated.
 
 ---
 
