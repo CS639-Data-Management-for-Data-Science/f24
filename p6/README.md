@@ -59,9 +59,9 @@ Concepts: Plotting, correlations, data imputation, leakage, one-hot encoding.
 
 **What observations can you draw from these plot? [0.3 Points]**
 
-1. x-axis should only display years (2013, 2014, 2015, 2016 and 2017). A, B and C are single plots.
-2. Use plotly.
-3. Write the observations in a markdown cell.
+1. X-axis should only display years (2013, 2014, 2015, 2016 and 2017) for plot A. Month for plot B and days of the week for plot C. 
+2. A, B and C are single plots. Use plotly.
+4. Write the observations in a markdown cell.
 
 **NOTE:** Your plots should be rendered in the notebook for you to receive credit.
 
