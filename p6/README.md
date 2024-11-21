@@ -13,6 +13,7 @@
 1. Q7 is no longer a part of the assignment. Please do not attempt.
 2. Q3 x-axis instructions updated.
 3. You can submit your plots separately if your notebook keeps dying on you.
+4. Q1 specificity increased.
 
 ---
 
@@ -51,6 +52,9 @@ Concepts: Plotting, correlations, data imputation, leakage, one-hot encoding.
 
 **Q1. Left join transaction to train and then print the *Spearman Correlation* between Total Sales and Transactions. Don't forget to join the respective dates on the test split. [0.1 Points]**
 
+1. Group train on date & store_nbr first
+2. It is total sales but NOT total transactions.
+
 **Q2. Plot an 'ordinary least squares' trendline between transactions and sales to verify the spearman correlation value in Q1. [0.1 Points]**
 
 **Q3. Plot these **line** charts in the notebook:**
@@ -63,7 +67,6 @@ Concepts: Plotting, correlations, data imputation, leakage, one-hot encoding.
 
 1. X-axis should only display years (2013, 2014, 2015, 2016 and 2017) for plot A. Month for plot B and days of the week for plot C. 
 2. A, B and C are single plots. Use plotly.
-4. Write the observations in a markdown cell.
 
 **NOTE:** Your plots should be rendered in the notebook for you to receive credit.
 
