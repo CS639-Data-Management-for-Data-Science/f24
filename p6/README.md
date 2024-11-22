@@ -14,6 +14,7 @@
 2. Q3 x-axis instructions updated.
 3. You can submit your plots separately if your notebook keeps dying on you.
 4. Q1 specificity increased.
+5. Q1 - removed test split processing details. No need.
 
 ---
 
@@ -50,7 +51,7 @@ Concepts: Plotting, correlations, data imputation, leakage, one-hot encoding.
 
 ### Analyzing the feature: Transactions (Correlations and average trends)
 
-**Q1. Left join transaction to train and then print the *Spearman Correlation* between Total Sales and Transactions. Don't forget to join the respective dates on the test split. [0.1 Points]**
+**Q1. Left join transaction to train and then print the *Spearman Correlation* between Total Sales and Transactions. [0.1 Points]**
 
 1. Group train on date & store_nbr first
 2. It is total sales but NOT total transactions.
