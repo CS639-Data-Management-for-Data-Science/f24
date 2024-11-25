@@ -216,7 +216,7 @@ Comparison Summary Table
 
 *To earn *extra credit 💰*, achieve a *top-3 position* on the leaderboard. If your total score points is closer to a better letter grade, we'll use this ranking to boost the letter grade.
 
-<details>
+<!---<details>
   <summary>
     Hint 1:
   </summary>
@@ -236,7 +236,7 @@ Comparison Summary Table
   </summary>
   <p>N-BEATS is a great deep learning based method. Try it out!</p>
 </details>
-
+-->
 
 ---      
 
