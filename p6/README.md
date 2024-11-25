@@ -166,6 +166,8 @@ Comparison Summary Table
 
 ## Section 3: Gradient Boosted Tree Methods
 
+**Note**: We are dropping section 3 from the project. It will be covered during lectures instead.
+<!---
 **NOTE 1:** Do not worry/get hung up on Q12-14 trying to find the best hyperparameters by hit and trial. Q15 will show you a method that finds (sub) optimal hyperparamters automatically.
 
 **NOTE 2:** You should be using all features so far except `id` for the subsequent submission questions.
@@ -196,10 +198,9 @@ Comparison Summary Table
 * Recommendation: Try 10 trials for each method.
 
 **Q18. Which out of the three Catboost vs LightGBM vs XGBoost provides the best score? Why do you think this model is more suited to this dataset/problem?**
-
 ---
 
-<!--- 
+ 
 ## Section 4: Interpretable N-BEATS
 
 <img src="assets/nbeats.png" width="700" height="450" align="center">
