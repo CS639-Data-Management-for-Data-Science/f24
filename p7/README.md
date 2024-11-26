@@ -254,7 +254,7 @@ Create an **interactive** "Creative Writing Assistant" app using Streamlit that 
     ```shell
     !curl https://loca.lt/mytunnelpassword
     ```
-    2. **Launch the app**: Deploy your app by running the following command, which launches Streamlit on port `8501` and exposes it via LocalTunnel:
+    3. **Launch the app**: Deploy your app by running the following command, which launches Streamlit on port `8501` and exposes it via LocalTunnel:
     ```shell
     !streamlit run app.py & npx localtunnel --port 8501
     ```
