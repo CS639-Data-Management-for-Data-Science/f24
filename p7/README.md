@@ -38,6 +38,7 @@ This project **requires** the use of a GPU, and both Google Colab and Kaggle pro
 #### For Kaggle:
 1. Sign-in to [Kaggle]( https://www.kaggle.com/) with your "wisc.edu" ID.
 2. On the tab-bar, select on **Code**, and create a new notebook and name it `p7.ipynb`.
+3. Don't forget to select a run-time GPU: ```Settings > Accelerator > GPU P100```
 
 **Code to Verify GPU Availability**
 ```python
