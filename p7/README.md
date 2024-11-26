@@ -4,7 +4,7 @@ Github Classroom Link: https://classroom.github.com/a/Y6ZRDyjN
 
 ## :telescope: Overview
 
-This project introduces you to working with LLMs using the HuggingFace API, fine-tuning them on specific data, and visualizing results using Streamlit. You'll complete the assignment in a Google Colab notebook.
+This project introduces you to working with LLMs using the HuggingFace API, fine-tuning them on specific data, and visualizing results using Streamlit. You'll complete the assignment in a Google Colab or Kaggle notebook.
 
 Learning objectives:
 - Gain hands-on experience with pre-trained LLMs, including text generation, prompt engineering, and 4-bit quantization.
