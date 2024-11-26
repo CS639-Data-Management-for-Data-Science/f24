@@ -38,7 +38,9 @@ This project **requires** the use of a GPU, and both Google Colab and Kaggle pro
 #### For Kaggle:
 1. Sign-in to [Kaggle]( https://www.kaggle.com/) with your "wisc.edu" ID.
 2. On the tab-bar, select on **Code**, and create a new notebook and name it `p7.ipynb`.
-3. Don't forget to select a run-time GPU: ```Settings > Accelerator > GPU P100```
+3. To enable GPU: **Settings → Accelerator → GPU P100**
+4. While you have free access to GPUs, there are usage limits you should be aware of:
+    * You have maximum 30 hours/week of GPU access.
 
 **Code to Verify GPU Availability**
 ```python
@@ -85,7 +87,7 @@ This will prompt you to enter your HuggingFace API token.
 1. The dataset of lecture transcripts (1.txt, 2.txt, ..., 25.txt) is provided as a ZIP file. Download and extract the files into your Colab or Kaggle environment using `wget` and `unzip`.
 
 ```
-!wget https://example.com/lecture_transcripts.zip -O transcripts.zip
+!wget https://github.com/CS639-Data-Management-for-Data-Science/f24/raw/main/p7/transcripts.zip
 !unzip transcripts.zip -d transcripts/
 ```
 
