@@ -279,13 +279,15 @@ p7-<your_team_name>
 
 ### Point breakdown
 
-Breakdown of total 12 points is as follows: 
-- Q1.1: 0.5 point each
-- Q1.2-Q1.4: 1 point each
-- Q2.1: 0.5 points
-- Q2.2: 3 points
-- Q2.3: 0.5 points
-- Q3: 4.5 points
+Breakdown of total 12 points is as follows:
+- Section 1: 3.5 points
+   * Q1.1: 0.5 point 
+   * Q1.2-Q1.4: 1 point each
+- Section 2: 4 points
+   * Q2.1: 0.5 points
+   * Q2.2: 3 points
+   * Q2.3: 0.5 points
+- Section 3 (Q3): 4.5 points
 
 ## :trophy: Testing
 
