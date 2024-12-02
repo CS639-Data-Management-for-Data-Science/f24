@@ -15,7 +15,9 @@ Before starting, please review the [general project directions](../projects.md).
 
 :warning: Please use Piazza to post (public/private) any questions regarding this project, as e-mails will NOT be answered. If you need to include your code to get help, please make a **private** post.
 
-<!-- ## :pushpin: Corrections/Clarifications -->
+## :pushpin: Corrections/Clarifications
+
+1. [**Dec 2, 2024**] Added a clarification on submission requirements for those working in a *team*. See [Submission](#outbox_tray-submission) for details.
 
 ## :hammer_and_wrench: Section 0: Setup
 
@@ -275,6 +277,13 @@ p7-<your_team_name>
 |--- p7.ipynb
 |--- q3.png
 ```
+- **If you have more than 1 member in your team**: please include a markdown cell, titled "Contributions", at the *beginning* or *end* of `p7.ipynb` that lists the contributions of each team member. For e.g.:  
+```markdown
+# Contributions
+Jane: Q1.1-1.4, Q2.1-2.3
+John: Q3
+```
+
 - **Technical issues within 36 hours of the deadline will not be considered as an excuse for late submission.**
 
 ### Point breakdown
