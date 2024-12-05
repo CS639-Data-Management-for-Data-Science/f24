@@ -18,6 +18,7 @@ Before starting, please review the [general project directions](../projects.md).
 ## :pushpin: Corrections/Clarifications
 
 1. [**Dec 2, 2024**] Added a clarification on submission requirements for those working in a *team*. See [Submission](#outbox_tray-submission) for details.
+2. [**Dec 5, 2024**] Added a clarification in case your request for `Llama-3.2-1B-Instruct` HF access is **denied**. See section "[Apply for Llama-3.2-1B-Instruct Acccess on HuggingFace](#step-3-apply-for-llama-32-1b-instruct-acccess-on-huggingface)" for details; and [`Q1.1`](#q11-load-a-4-bit-quantized-llama-32-1b-instruct-model-and-and-its-tokenizer) for an additonal requirement asking you to include a markdown cell with the name and link to the model you used (again, this is only if you are not using `Llama-3.2-1B-Instruct`).
 
 ## :hammer_and_wrench: Section 0: Setup
 
@@ -74,6 +75,8 @@ This will prompt you to enter your HuggingFace API token.
 1. Go to https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct. Fill-out and submit the provided form to gain access to the model weights.
     * You can review your request status (pending/accepted) here: https://huggingface.co/settings/gated-repos. It typically takes ~15 minutes.
 
+**If your access request is denied**: Use any of the other fine-tuned variants of the same model family (preferably instruction-tuned). For e.g., one variant is an uncensored version, [`huihui-ai/Llama-3.2-1B-Instruct-abliterated`](https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated).
+
 ### Step 4: Install Dependencies
 
 1. Please install the required dependencies by running the following code:
@@ -108,6 +111,7 @@ In this section, you will load and run inference (text generation) on a **4-bit 
     * `bnb_4bit_compute_dtype=torch.float16`
 4. Load the tokenizer using `AutoTokenizer.from_pretrained()`.
 5. Load the quantized model using `AutoModelForCausalLM.from_pretrained()` with the quantization configuration, and ensure it is moved to the current device (e.g., GPU).
+6. If your access request for `Llama-3.2-1B-Instruct` was denied and you used a different model, please include a markdown cell including the name and link to the model.
 
 <details>
 <summary>[<b>Optional reading</b>] How do we access pre-trained models from HuggingFace?</summary>
