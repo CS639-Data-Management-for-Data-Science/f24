@@ -19,6 +19,7 @@ Before starting, please review the [general project directions](../projects.md).
 
 1. [**Dec 2, 2024**] Added a clarification on submission requirements for those working in a *team*. See [Submission](#outbox_tray-submission) for details.
 2. [**Dec 5, 2024**] Added a clarification in case your request for `Llama-3.2-1B-Instruct` HF access is **denied**. See section "[Apply for Llama-3.2-1B-Instruct Acccess on HuggingFace](#step-3-apply-for-llama-32-1b-instruct-acccess-on-huggingface)" for details; and [`Q1.1`](#q11-load-a-4-bit-quantized-llama-32-1b-instruct-model-and-and-its-tokenizer) for an additonal requirement asking you to include a markdown cell with the name and link to the model you used (again, this is only if you are not using `Llama-3.2-1B-Instruct`).
+3. [**Dec 6 2024**] Added a note on how to bypass the wandb prompt thrown by `SFTTrainer` during fine-tuning. See last bullet point in [`Q2.2` "Steps to follow"](#q22-fine-tune-the-model-on-course-lecture-transcripts-with-lora) for details. You can ignore this if you like.
 
 ## :hammer_and_wrench: Section 0: Setup
 
@@ -224,6 +225,7 @@ In this section, you will fine-tune your quantized `Llama-3.2-1B-Instruct` model
             optim="paged_adamw_8bit"
         )
         ```
+    [Optional] In case you would like to by-pass the wandb prompt thrown by `SFTTrainer`, add argument `report_to="none"` in `TrainingArguments`.
 
 ### Q2.3: Test the model after fine-tuning.
 
